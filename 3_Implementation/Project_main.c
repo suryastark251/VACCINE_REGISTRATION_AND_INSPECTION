@@ -7,7 +7,7 @@ int main(){
     
     int status;         // A return parameter to check status of patient
     long p;             // Variable that stores patient's aadhar number
-    int v1=0,v2=0;      //Vaccine type 1 and 2 quantity
+    int v1=0,v2=0;      //Vaccine type 1 and 2 
     
     existregist();
     
@@ -16,7 +16,7 @@ int main(){
         
     aply:
     printf("\nLet's get vaccinated!!!\n");
-    printf("Enter your aadhar number:");
+    printf("Please Enter your aadhar number:");
     scanf("%li",&p);
    
     
@@ -46,12 +46,13 @@ int main(){
                 break;}
             i++;
         }
-        printf("Credentials saved, log in again\n");
+        printf("Credentials sucessfully saved, log in again\n");
         goto aply;
     }
     else if (status==0){
         //Verification
-        printf("Confirm user, enter ph.number\n");
+        printf("Confirm user\n");
+        printf("Enter your phone number:\n");
         prv1:
         scanf("%d",&pno);
         if(pno==pd[j].ph_number)
