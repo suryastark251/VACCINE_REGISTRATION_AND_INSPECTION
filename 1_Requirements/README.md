@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
-The deployment of covid-19 vaccines in India was done in a sudden burst and thus the tracking became very complicated. 
+The deployment of corona vaccines in India was done in a sudden burst and thus the tracking became very complicated. 
 Due to multiple input and output commands on the server, it resulted in several slow running issues and crashes. 
 The Aadhar details were used to allot the vaccines and hence it operated on a central server.
 To avoid the use of central server for all commmands, a local server will be loaded with the vaccine-registered data. 
